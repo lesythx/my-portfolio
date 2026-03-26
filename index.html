@@ -25,11 +25,28 @@
       }
 
       /* ── NAV ── */
-      .navbar { background-color: #033f63 !important; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
-      .navbar-brand { font-family: "Playfair Display", serif; color: #fedc97 !important; font-weight: 700; }
-      .nav-link { color: rgba(255,255,255,0.75) !important; font-size: 0.82rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; }
-      .nav-link:hover { color: #fedc97 !important; }
-      .navbar-toggler { border-color: rgba(254,220,151,0.5); }
+      .navbar {
+        background-color: #033f63 !important;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      }
+      .navbar-brand {
+        font-family: "Playfair Display", serif;
+        color: #fedc97 !important;
+        font-weight: 700;
+      }
+      .nav-link {
+        color: rgba(255, 255, 255, 0.75) !important;
+        font-size: 0.82rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+      .nav-link:hover {
+        color: #fedc97 !important;
+      }
+      .navbar-toggler {
+        border-color: rgba(254, 220, 151, 0.5);
+      }
       .navbar-toggler-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28254,220,151,0.9%29' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
       }
@@ -37,17 +54,29 @@
       /* ── HERO ── */
       #hero {
         min-height: 100vh;
-        background: linear-gradient(145deg, #033f63 0%, #28666e 60%, #7c9885 100%);
+        background: linear-gradient(
+          145deg,
+          #033f63 0%,
+          #28666e 60%,
+          #7c9885 100%
+        );
         display: flex;
         align-items: center;
         padding-top: 76px;
       }
-      .hero-name { font-family: "Playfair Display", serif; color: #fff; font-weight: 900; line-height: 1.1; }
-      .hero-name span { color: #fedc97; }
+      .hero-name {
+        font-family: "Playfair Display", serif;
+        color: #fff;
+        font-weight: 900;
+        line-height: 1.1;
+      }
+      .hero-name span {
+        color: #fedc97;
+      }
       .hero-badge {
         display: inline-block;
-        background: rgba(254,220,151,0.15);
-        border: 1px solid rgba(254,220,151,0.4);
+        background: rgba(254, 220, 151, 0.15);
+        border: 1px solid rgba(254, 220, 151, 0.4);
         color: #fedc97;
         font-size: 0.8rem;
         font-weight: 600;
@@ -57,84 +86,236 @@
         border-radius: 100px;
       }
       .photo-ring {
-        width: 150px; height: 150px;
-        border-radius: 50%; padding: 4px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        padding: 4px;
         background: linear-gradient(135deg, #fedc97, #b5b682);
-        box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
         margin: 0 auto;
       }
-      .photo-ring img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; }
-      .pill-link {
-        display: inline-flex; align-items: center; gap: 0.4rem;
-        background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
-        color: rgba(255,255,255,0.9) !important; padding: 0.35rem 0.85rem;
-        border-radius: 100px; font-size: 0.82rem; text-decoration: none; margin: 0.2rem;
+      .photo-ring img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
       }
-      .pill-link:hover { background: rgba(254,220,151,0.2); border-color: #fedc97; color: #fedc97 !important; }
-      .hero-location { color: rgba(255,255,255,0.55); font-size: 0.85rem; }
+      .pill-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: rgba(255, 255, 255, 0.9) !important;
+        padding: 0.35rem 0.85rem;
+        border-radius: 100px;
+        font-size: 0.82rem;
+        text-decoration: none;
+        margin: 0.2rem;
+      }
+      .pill-link:hover {
+        background: rgba(254, 220, 151, 0.2);
+        border-color: #fedc97;
+        color: #fedc97 !important;
+      }
+      .hero-location {
+        color: rgba(255, 255, 255, 0.55);
+        font-size: 0.85rem;
+      }
 
       /* ── SECTION HEADERS ── */
-      .section-title { font-family: "Playfair Display", serif; color: #033f63; font-weight: 700; }
-      .section-divider { border: none; height: 2px; background: linear-gradient(to right, #b5b682, transparent); margin-bottom: 2.5rem; }
+      .section-title {
+        font-family: "Playfair Display", serif;
+        color: #033f63;
+        font-weight: 700;
+      }
+      .section-divider {
+        border: none;
+        height: 2px;
+        background: linear-gradient(to right, #b5b682, transparent);
+        margin-bottom: 2.5rem;
+      }
 
       /* ── EDUCATION TIMELINE ── */
-      .timeline { position: relative; padding-left: 2rem; }
+      .timeline {
+        position: relative;
+        padding-left: 2rem;
+      }
       .timeline::before {
-        content: ""; position: absolute; left: 10px; top: 12px; bottom: 12px;
-        width: 2px; background: linear-gradient(to bottom, #28666e, #7c9885);
+        content: "";
+        position: absolute;
+        left: 10px;
+        top: 12px;
+        bottom: 12px;
+        width: 2px;
+        background: linear-gradient(to bottom, #28666e, #7c9885);
       }
-      .timeline-item { position: relative; padding-bottom: 2rem; }
+      .timeline-item {
+        position: relative;
+        padding-bottom: 2rem;
+      }
       .timeline-dot {
-        position: absolute; left: -1.95rem; top: 4px;
-        width: 20px; height: 20px; border-radius: 50%;
-        background: #28666e; border: 3px solid #fafaf8;
-        box-shadow: 0 0 0 2px #28666e; z-index: 1;
+        position: absolute;
+        left: -1.95rem;
+        top: 4px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #28666e;
+        border: 3px solid #fafaf8;
+        box-shadow: 0 0 0 2px #28666e;
+        z-index: 1;
       }
-      .timeline-dot.active { background: #fedc97; box-shadow: 0 0 0 2px #fedc97; }
-      .timeline-school { font-weight: 700; color: #033f63; font-size: 1rem; }
+      .timeline-dot.active {
+        background: #fedc97;
+        box-shadow: 0 0 0 2px #fedc97;
+      }
+      .timeline-school {
+        font-weight: 700;
+        color: #033f63;
+        font-size: 1rem;
+      }
       .timeline-years {
-        display: inline-block; font-size: 0.78rem; font-weight: 600; color: #28666e;
-        background: rgba(40,102,110,0.08); padding: 0.1rem 0.6rem; border-radius: 100px; margin-top: 0.2rem;
+        display: inline-block;
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: #28666e;
+        background: rgba(40, 102, 110, 0.08);
+        padding: 0.1rem 0.6rem;
+        border-radius: 100px;
+        margin-top: 0.2rem;
       }
-      .timeline-level { font-size: 0.82rem; color: #6b7f8a; margin-top: 0.2rem; }
+      .timeline-level {
+        font-size: 0.82rem;
+        color: #6b7f8a;
+        margin-top: 0.2rem;
+      }
 
       /* ── PROJECT CARDS ── */
-      .project-card { border-radius: 14px; border: 1px solid rgba(3,63,99,0.08); box-shadow: 0 2px 12px rgba(3,63,99,0.06); overflow: hidden; height: 100%; }
-      .project-card-top { height: 4px; background: linear-gradient(90deg, #033f63, #28666e, #fedc97); }
-      .project-date { font-size: 0.75rem; font-weight: 600; color: #28666e; text-transform: uppercase; letter-spacing: 0.05em; }
-      .project-title { font-family: "Playfair Display", serif; font-size: 1.05rem; font-weight: 700; color: #033f63; }
-      .project-desc { font-size: 0.88rem; color: #556672; line-height: 1.6; }
+      .project-card {
+        border-radius: 14px;
+        border: 1px solid rgba(3, 63, 99, 0.08);
+        box-shadow: 0 2px 12px rgba(3, 63, 99, 0.06);
+        overflow: hidden;
+        height: 100%;
+      }
+      .project-card-top {
+        height: 4px;
+        background: linear-gradient(90deg, #033f63, #28666e, #fedc97);
+      }
+      .project-date {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #28666e;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .project-title {
+        font-family: "Playfair Display", serif;
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: #033f63;
+      }
+      .project-desc {
+        font-size: 0.88rem;
+        color: #556672;
+        line-height: 1.6;
+      }
 
       /* ── SKILL TAGS ── */
-      .skill-tag { padding: 0.4rem 1rem; border-radius: 100px; font-size: 0.84rem; font-weight: 600; border: 1.5px solid; cursor: default; display: inline-block; margin: 0.25rem; }
-      .skill-tag.c1 { background: rgba(3,63,99,0.08);    color: #033f63; border-color: #033f63; }
-      .skill-tag.c2 { background: rgba(40,102,110,0.08); color: #28666e; border-color: #28666e; }
-      .skill-tag.c3 { background: rgba(124,152,133,0.1); color: #4a7055; border-color: #7c9885; }
-      .skill-tag.c4 { background: rgba(181,182,130,0.15);color: #71724a; border-color: #b5b682; }
-      .skill-tag.c5 { background: rgba(254,220,151,0.2); color: #8a6b10; border-color: #fedc97; }
+      .skill-tag {
+        padding: 0.4rem 1rem;
+        border-radius: 100px;
+        font-size: 0.84rem;
+        font-weight: 600;
+        border: 1.5px solid;
+        cursor: default;
+        display: inline-block;
+        margin: 0.25rem;
+      }
+      .skill-tag.c1 {
+        background: rgba(3, 63, 99, 0.08);
+        color: #033f63;
+        border-color: #033f63;
+      }
+      .skill-tag.c2 {
+        background: rgba(40, 102, 110, 0.08);
+        color: #28666e;
+        border-color: #28666e;
+      }
+      .skill-tag.c3 {
+        background: rgba(124, 152, 133, 0.1);
+        color: #4a7055;
+        border-color: #7c9885;
+      }
+      .skill-tag.c4 {
+        background: rgba(181, 182, 130, 0.15);
+        color: #71724a;
+        border-color: #b5b682;
+      }
+      .skill-tag.c5 {
+        background: rgba(254, 220, 151, 0.2);
+        color: #8a6b10;
+        border-color: #fedc97;
+      }
 
       /* ── CONTACT ── */
-      #contact { background: #033f63; }
-      #contact .section-title { color: #fedc97; }
-      #contact .section-divider { background: linear-gradient(to right, #b5b682, transparent); }
-      .contact-card {
-        background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
-        border-radius: 12px; padding: 1.1rem 1.3rem;
-        display: flex; align-items: center; gap: 0.8rem;
-        color: rgba(255,255,255,0.85); text-decoration: none; font-size: 1.3rem; height: 100%;
+      #contact {
+        background: #033f63;
       }
-      .contact-card:hover { background: rgba(254,220,151,0.1); border-color: #fedc97; color: #fedc97; }
-      .cc-label { font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.55; color: inherit; }
-      .cc-value { font-size: 0.88rem; font-weight: 600; color: inherit; margin-top: 0.1rem; }
+      #contact .section-title {
+        color: #fedc97;
+      }
+      #contact .section-divider {
+        background: linear-gradient(to right, #b5b682, transparent);
+      }
+      .contact-card {
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 12px;
+        padding: 1.1rem 1.3rem;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        font-size: 1.3rem;
+        height: 100%;
+      }
+      .contact-card:hover {
+        background: rgba(254, 220, 151, 0.1);
+        border-color: #fedc97;
+        color: #fedc97;
+      }
+      .cc-label {
+        font-size: 0.68rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        opacity: 0.55;
+        color: inherit;
+      }
+      .cc-value {
+        font-size: 0.88rem;
+        font-weight: 600;
+        color: inherit;
+        margin-top: 0.1rem;
+      }
 
       /* ── FOOTER ── */
-      footer { background: #021e30; color: rgba(255,255,255,0.3); font-size: 0.78rem; letter-spacing: 0.04em; }
+      footer {
+        background: #021e30;
+        color: rgba(255, 255, 255, 0.3);
+        font-size: 0.78rem;
+        letter-spacing: 0.04em;
+      }
 
-      .bg-light-alt { background: #f0ede6; }
+      .bg-light-alt {
+        background: #f0ede6;
+      }
     </style>
   </head>
   <body>
-
     <!-- NAVBAR — Bootstrap component, collapses to hamburger on mobile -->
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container">
@@ -152,10 +333,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navMenu">
           <ul class="navbar-nav ms-auto gap-md-2">
-            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -165,25 +354,39 @@
     <section id="hero">
       <div class="container py-5">
         <div class="row justify-content-center text-center">
-          <div class="col-12 col-md-8 col-lg-6 d-flex flex-column align-items-center gap-3">
-
+          <div
+            class="col-12 col-md-8 col-lg-6 d-flex flex-column align-items-center gap-3"
+          >
             <div class="photo-ring">
-              <img="pfp.jpg" alt="Leslien Mae Padua" />
-              />
+              <img src="pfp.jpg" alt="Leslien Mae Padua" />
             </div>
 
             <div>
-              <h1 class="hero-name display-5">Leslien Mae <span>Padua</span></h1>
+              <h1 class="hero-name display-5">
+                Leslien Mae <span>Padua</span>
+              </h1>
               <div class="mt-2">
-                <span class="hero-badge">BSIT — Ateneo de Davao University</span>
+                <span class="hero-badge"
+                  >BSIT — Ateneo de Davao University</span
+                >
               </div>
             </div>
 
             <div class="d-flex flex-wrap justify-content-center">
               <a class="pill-link" href="tel:09369848950">📞 0936-984-8950</a>
-              <a class="pill-link" href="mailto:leslienpadua@gmail.com">✉️ leslienpadua@gmail.com</a>
-              <a class="pill-link" href="https://www.facebook.com/Leslien.Padua" target="_blank" rel="noopener">📘 Leslien Padua</a>
-              <a class="pill-link" href="https://www.instagram.com/lesythx" target="_blank" rel="noopener">📷 @lesythx</a>
+              <a class="pill-link" href="mailto:leslienpadua@gmail.com"
+                >✉️ leslienpadua@gmail.com</a
+              >
+              <a class="pill-link" href="https://www.facebook.com/leslien.padua"
+                >📘 Leslien Padua</a
+              >
+              <a
+                class="pill-link"
+                href="https://www.instagram.com/lesythx"
+                target="_blank"
+                rel="noopener"
+                >📷 @lesythx</a
+              >
             </div>
 
             <p class="hero-location mb-0">📍 Davao City, Philippines</p>
@@ -198,12 +401,13 @@
         <h2 class="section-title mb-2">Education</h2>
         <hr class="section-divider" />
         <div class="timeline">
-
           <div class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-school">Stella Maris Academy of Davao</div>
             <div><span class="timeline-years">2009 – 2022</span></div>
-            <div class="timeline-level">Nursery through Senior High School (Grade 10)</div>
+            <div class="timeline-level">
+              Nursery through Senior High School (Grade 10)
+            </div>
           </div>
 
           <div class="timeline-item">
@@ -224,9 +428,10 @@
             <div class="timeline-dot active"></div>
             <div class="timeline-school">Ateneo de Davao University</div>
             <div><span class="timeline-years">2024 – Present</span></div>
-            <div class="timeline-level">Bachelor of Science in Information Technology</div>
+            <div class="timeline-level">
+              Bachelor of Science in Information Technology
+            </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -239,14 +444,19 @@
 
         <!-- Bootstrap responsive grid: 1 col → 2 col → 3 col -->
         <div class="row g-3">
-
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="project-card bg-white">
               <div class="project-card-top"></div>
               <div class="p-3">
                 <div class="project-date">Nov 21, 2024</div>
-                <div class="project-title mt-1">Jeep Fair Distance Calculator</div>
-                <p class="project-desc mt-2 mb-0">A tool that calculates jeepney fare distances to help commuters estimate their transportation costs within Davao City.</p>
+                <div class="project-title mt-1">
+                  Jeep Fair Distance Calculator
+                </div>
+                <p class="project-desc mt-2 mb-0">
+                  A tool that calculates jeepney fare distances to help
+                  commuters estimate their transportation costs within Davao
+                  City.
+                </p>
               </div>
             </div>
           </div>
@@ -257,7 +467,10 @@
               <div class="p-3">
                 <div class="project-date">Nov 9, 2025</div>
                 <div class="project-title mt-1">Program Compatibility Test</div>
-                <p class="project-desc mt-2 mb-0">An application designed to evaluate and verify compatibility across different systems and program environments.</p>
+                <p class="project-desc mt-2 mb-0">
+                  An application designed to evaluate and verify compatibility
+                  across different systems and program environments.
+                </p>
               </div>
             </div>
           </div>
@@ -267,12 +480,16 @@
               <div class="project-card-top"></div>
               <div class="p-3">
                 <div class="project-date">Nov 14, 2025</div>
-                <div class="project-title mt-1">Website Clothing Wardrobe Project</div>
-                <p class="project-desc mt-2 mb-0">A web app for organizing and managing a personal clothing wardrobe with a clean and accessible interface.</p>
+                <div class="project-title mt-1">
+                  Website Clothing Wardrobe Project
+                </div>
+                <p class="project-desc mt-2 mb-0">
+                  A web app for organizing and managing a personal clothing
+                  wardrobe with a clean and accessible interface.
+                </p>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -303,53 +520,76 @@
 
         <!-- Bootstrap grid: 1 col → 2 col → 3 col -->
         <div class="row g-3">
-
           <div class="col-12 col-sm-6 col-md-4">
             <a class="contact-card" href="tel:09369848950">
               <span>📞</span>
-              <div><div class="cc-label">Phone</div><div class="cc-value">0936-984-8950</div></div>
+              <div>
+                <div class="cc-label">Phone</div>
+                <div class="cc-value">0936-984-8950</div>
+              </div>
             </a>
           </div>
 
           <div class="col-12 col-sm-6 col-md-4">
             <a class="contact-card" href="mailto:leslienpadua@gmail.com">
               <span>✉️</span>
-              <div><div class="cc-label">Email</div><div class="cc-value">leslienpadua@gmail.com</div></div>
+              <div>
+                <div class="cc-label">Email</div>
+                <div class="cc-value">leslienpadua@gmail.com</div>
+              </div>
             </a>
           </div>
 
           <div class="col-12 col-sm-6 col-md-4">
-            <a class="contact-card" href="https://www.facebook.com/Leslien.Padua" target="_blank" rel="noopener">
+            <a
+              class="contact-card"
+              href="https://www.facebook.com/Leslien.Padua"
+              target="_blank"
+              rel="noopener"
+            >
               <span>📘</span>
-              <div><div class="cc-label">Facebook</div><div class="cc-value">Leslien Padua</div></div>
+              <div>
+                <div class="cc-label">Facebook</div>
+                <div class="cc-value">Leslien Padua</div>
+              </div>
             </a>
           </div>
 
           <div class="col-12 col-sm-6 col-md-4">
-            <a class="contact-card" href="https://www.instagram.com/lesythx" target="_blank" rel="noopener">
+            <a
+              class="contact-card"
+              href="https://www.instagram.com/lesythx"
+              target="_blank"
+              rel="noopener"
+            >
               <span>📷</span>
-              <div><div class="cc-label">Instagram</div><div class="cc-value">@lesythx</div></div>
+              <div>
+                <div class="cc-label">Instagram</div>
+                <div class="cc-value">@lesythx</div>
+              </div>
             </a>
           </div>
 
           <div class="col-12 col-sm-6 col-md-4">
-            <div class="contact-card" style="cursor: default;">
+            <div class="contact-card" style="cursor: default">
               <span>📍</span>
-              <div><div class="cc-label">Location</div><div class="cc-value">Davao City, PH</div></div>
+              <div>
+                <div class="cc-label">Location</div>
+                <div class="cc-value">Davao City, PH</div>
+              </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
 
     <!-- FOOTER -->
     <footer class="text-center py-3">
-      &copy; 2025 Leslien Mae Padua &nbsp;·&nbsp; BSIT, Ateneo de Davao University
+      &copy; 2025 Leslien Mae Padua &nbsp;·&nbsp; BSIT, Ateneo de Davao
+      University
     </footer>
 
     <!-- Bootstrap 5 JS bundle (includes Popper — required for navbar collapse) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
   </body>
 </html>
